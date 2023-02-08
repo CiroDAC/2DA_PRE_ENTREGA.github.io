@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Yeon Sung', cursive;
+}
+.nosotros {
+    padding: 200px;px 0;
+    width:90%;
+    max-width:1000px;
+    margin:auto;
+    overflow: hidden;
+    background-color: #8ca6dbc4;
+    mask-border-width:inherit;
+}
+.titulo {
+    color: rgba(20, 2, 54, 0.966);
+    font-size:40px;
+    text-align:center;
+    margin bottom:60px;
+
+}
+/*tabla(No me gusto como quedo y no supe como centrarlo) Despues encontrtre otra alternativa a la tabla, pero por las dudas lo dejo.
+.table,th,td{
+    border:1px solid black;
+    background-position: center;
+}
+thead{
+    background-color: #9081e4e1;  
+}
+tbody{
+    background-color: #9793d67e;  
+}
+*/
+/*items (Me gustaria saber como hacer que tengan animacion cuando pase o que tengan un sombreado. Alternativa a la tabla que me gusto mas*/
+h2{
+    margin: 0;
+    padding: 1em;
+
+}
+.contenedor{
+    background-color: #8ca6dbc4;
+    padding: 1em;
+    overflow: hidden;
+}
+.item {
+    margin: 1em;
+    padding: 1em;
+    color: rgba(0, 22, 117, 0.644);
+    float: center;
+}
+#item1{
+    background-color: #8ca6dbc4;
+}
+#item2{
+    background-color: #b18cdbdc;
+}
+#item3{
+    background-color: #8caedbde;
+}
+    
+/*header*/
+header{
+    width: 100%;
+    height: 600px;
+    background:background #b993d6ec;  
+    background: -webkit-linear-gradient(to right, #8ca6dbec, #b993d6e3);  
+    background: linear-gradient(to right, #8ca6dbe7, #b993d6e8), url(IMG/wallpaper.jpg); 
+    background-size:cover;
+    background-attachment:fixed;
+    position:relative;
+}
+#casa-musica{
+    background-position:center
+    border: radius 15px;
+
+}
+nav {
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+nav a{
+    color: rgba(4, 8, 61, 0.945);
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 16px;
+    margin: right 10px;
+}
+
+nav > a:hover{
+    color: rgba(72, 13, 145, 0.959);
+    font-weight: 300;
+    text-decoration: underline;
+    font-size: 16px;
+    margin: right 10px;
+}
+header {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+#textos.header h1{
+font-size: 50px;
+color: azure;
+}
+#textos.header h2{
+    font-size: 30px;
+    color: antiquewhite;
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
